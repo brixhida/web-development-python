@@ -6,8 +6,8 @@ class PetInterest(models.Model):
     surname = models.CharField(max_length=50)
     phone = models.CharField(max_length=50)
     email = models.CharField(max_length=50)
-    pet_choice = models.CharField(max_length=50)
-    more_info = models.CharField(max_length=50)
+    pet = models.CharField(max_length=50)
+    moreInfo = models.CharField(max_length=50)
  
 
 # python manage.py makemigrations
