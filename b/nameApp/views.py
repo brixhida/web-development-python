@@ -16,9 +16,6 @@ def contact(request):
 def adopt(request):
     return render(request, "adoptnow.html")
 
-def hello(request):
-    return render(request, "hello.html")
-
 
 def pets(request):
     return render(request, "pets.html")
