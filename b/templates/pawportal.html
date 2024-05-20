@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <link rel="stylesheet"  href="{% static  'pawportal.css' %}" type="text/css">
+    <title>Paw Portal</title>
+    
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div  class="container-fluid">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Paw-print.svg/640px-Paw-print.svg.png"
+                alt="logo" width="20px" height="18px">
+            <a class="navbar-brand" id="logo" href="file:///C:/Users/User/Downloads/pawportal.html#">Paw Portal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="pawportal.html">Home</a>
+                    <a class="nav-link" href="aboutpaw.html">About</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="adoptnow.html">Adopt Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--Entrance carousel-->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="https://www.thesprucepets.com/thmb/J6YIIdHoWc611pJfnPCYHnJgR4M=/2121x0/filters:no_upscale():strip_icc()/GettyImages-4683820961-b492a509cde54aac91f40331a1b9149a.jpg"
+                    class="d-block w-100" alt="first">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Ready to adopt a furry friend?</h5>
+                    <p>Paw Portal connects you with adorable pets looking for a forever home. Explore profiles, find the perfect match and start your adoption journey today.
+                    </p>
+                    <a class="button-link" href="pets.html">View Pets</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://cdn.shopify.com/s/files/1/0565/8021/0861/files/Shop-by-breed_element_1_1.png?v=1683546131"
+                    class="d-block w-100" alt="second">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Ready to adopt a furry friend?</h5>
+                    <p>Paw Portal connects you with adorable pets looking for a forever home. Explore profiles, find the perfect match and start your adoption journey today.
+                    </p>
+                    <a class="button-link" href="pets.html">View Pets</a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://www.pbs.org/wnet/nature/files/2014/10/Parrot-Main-1280x720.jpg"
+                    class="d-block w-100" alt="third">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Ready to adopt a furry friend?</h5>
+                    <p>Paw Portal connects you with adorable pets looking for a forever home. Explore profiles, find the perfect match and start your adoption journey today.
+                    </p>
+                    <a class="button-link" href="pets.html">View Pets</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div><br>
+
+
+    <!--info-->
+
+    <div class="m-2">
+      <center> <h3>Our Impact</h3></center>
+      <center> <p>Thousands have found their loyal companions through us. Our mission is to continue creating happy homes.</p></center>
+      <div  id="impact" class="mx-auto rounded row">
+        <div class="col-12 col-lg-4">
+            <p>3500</p>
+            <p>Pets Adopted</p>
+        </div>
+        <div class="col-12 col-lg-4">
+            <p>150</p>
+            <p>Volunteers</p>
+        </div>
+        <div class="col-12 col-lg-4">
+            <p>200</p>
+            <p>Success Stories</p>
+        </div>       
+
+    </div><br>
+    
+    <!-- footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Paw Portal. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="https://www.instagram.com/"><img class="footer-img"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"></a></li>
+                <li><a href="https://www.facebook.com/"><img class="footer-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Facebook_F_icon.svg/1200px-Facebook_F_icon.svg.png"></a></li>
+                <li><a href="https://www.youtube.com/"><img class="footer-img" src="https://image.similarpng.com/very-thumbnail/2020/07/Youtube-logo-vector-PNG.png"></a></li>
+                <li><a href="https://al.linkedin.com/"><img class="footer-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"></a></li>
+            </ul>
+        </div>
+        <div class="contact-info">
+            <p>Contact Us:</p>
+            <p>Email: pawportal@yahoo.com</p>
+            <p>Phone: +355 69 308-0490</p>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59669.58966815974!2d-0.17541678039704388!3d51.51139936547459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b6baf8c355%3A0x62e546d3ab566271!2sLondon%2C%20UK!5e0!3m2!1sen!2suk!4v1648414549043!5m2!1sen!2suk" width="400" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </footer>
+    
+
+
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
